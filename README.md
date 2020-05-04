@@ -28,14 +28,17 @@ In order to leave the virtual environment just use 'deactivate' command.
 
 
 ## Installing the package
-Use "pip install ." in your virtual environment by setting your working directory to the folders that consists the cloned repo files.
+### Use "pip install ." in your virtual environment by setting your working directory to the folders that consists the cloned repo files.
 It will install itself using the setup.py file and initialize the based on the __init__.py file
 
+### Use pip install probability-dstbn to install the package directly to your machine 
+
 Then within the Python interpreter, you can use the distributions package like: <br>
-from distributions import Gaussian <br>
+from probability_dstbn import Gaussian,Binomial <br>
 gaussian_one = Gaussian(25, 2) <br>
 gaussian_one.mean <br>
 gaussian_one + gaussian_one <br>
+binomial= Binomial(0.4,25) <br>
 
 You can view the python files of the package yourself and edit it to better understand it yourself.
 
